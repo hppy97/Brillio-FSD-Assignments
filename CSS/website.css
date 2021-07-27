@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+.header {
+    background-color:lightpink;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .navi {
+    overflow: hidden;
+    background-color:cadetblue;
+    text-align: center;
+    
+  }
+  
+
+  .navi a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navi a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .column {
+    float: left;
+    width: 47.6%;
+    padding: 15px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer {
+    background-color: lightpink;
+    padding: 10px;
+    text-align: center;
+  }
